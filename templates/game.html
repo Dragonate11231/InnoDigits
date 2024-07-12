@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Игра 1</title>
+  <style>
+
+    body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #4285F4;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.example {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.options {
+  margin-top: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #4285F4;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+footer a{
+color: white;
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Игра 1</h1>
+    <p1>10+12</p1>
+  </header>
+  <main>
+    <form action="game" method="post">
+    <input type="checkbox" value="a" name="c1">22<br>
+    <input type="checkbox" value="b" name="c1">17<br>
+    <input type="checkbox" value="c" name="c1">90<br>
+    <input type="checkbox" value="d" name="c1">1012<br>
+      <button type="submit">Проверить</button>
+      <p>{{answer1}}</p>
+
+  <header style="margin-top:10px">
+    <p1>9+7</p1>
+  </header>
+  <main>
+    <form action="game" method="post">
+    <input type="checkbox" value="a" name="c2">97<br>
+    <input type="checkbox" value="b" name="c2">17<br>
+    <input type="checkbox" value="c" name="c2">12<br>
+    <input type="checkbox" value="d" name="c2">16<br>
+      <button type="submit">Проверить</button>
+      <p>{{answer2}}</p>
+</form>
+
+   <header style="margin-top:10px">
+    <p1>40+100</p1>
+  </header>
+  <main>
+    <form action="game" method="post">
+    <input type="checkbox" value="a" name="c3">40100<br>
+    <input type="checkbox" value="b" name="c3" >140<br>
+    <input type="checkbox" value="c"name="c3">55<br>
+    <input type="checkbox" value="d"name="c3">308<br>
+      <button type="submit">Проверить</button>
+      <p>{{answer3}}</p>
+
+  </main>
+  <footer>
+    <a href="index">Назад к выбору игр</button></a>
+  </footer>
+</body>
+</html>
